@@ -4,8 +4,9 @@ import { TextInput, Button, Text, View } from "react-native";
 export default function LoginForm() {
   return (
     <View>
-      <Text>Componente LoginForm</Text>
-      <Text>perreo desde componente</Text>
+      <TextInput placeholder = "Email" />
+      <TextInput placeholder = "Contraseña" />
+      <Button title="Boton" onPress = {() => console.log("Enviado")}/>
     </View>
   );
 }
